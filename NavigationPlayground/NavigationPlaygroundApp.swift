@@ -11,7 +11,7 @@ import SwiftUI
 struct NavigationPlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationContainerView(screenModel: ScreenModel(color: .random(), level: [0]))
         }
     }
 }
